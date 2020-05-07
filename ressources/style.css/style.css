@@ -89,8 +89,23 @@ section {}
 
 /* HEADER
 ==================================*/
-header {
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(241, 236, 236, 0.9);
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(189, 28, 205, 0.7);
+}
+.navbar-light .navbar-brand  {
+    color: rgba(241, 236, 236, 0.9);
+     }
+.container.nav{
+    max-width: 100%;
+}
+.container-header{
+    max-width: 1500px;
+}
 
+header {
     background-image: linear-gradient(rgba(56, 56, 56, 1) 1%, rgba(26, 26, 26, 0.3113620448179272) 10%), url(../images/Header.jpg);
     height: 100vh;
     background-repeat: no-repeat;
@@ -257,6 +272,7 @@ h3,span {
 .contact-full{
     background-color: #282d31;
     height: 300px;
+    padding-top: 30px
 }
 .menu-category a{
     color: #fff; 
@@ -264,27 +280,22 @@ h3,span {
     }
 
 .menu-category{
-    margin-top:80px;
     margin-bottom: 30px;
 }
 .menu-lien a{
     color: #fff;
+    opacity: 0.8;
 }
-.contact-title h3{
+.menu-titre-contact a{
     color: #fff;
     font-size: 25px;
-    font-weight: 300;
+    font-weight: 400;
     }
-.contact-title{
-     margin-top:80px;
-    margin-bottom: 30px;
-}
 
 .contact-paragraph p { 
     font-size: 15px;
     text-align: left;
     color:#fff; 
-    
 }
 
 ul {
@@ -304,16 +315,25 @@ margin-bottom:10px;
 .section-footer{
     background-color: #131313;
     height: 150px;
+    padding-top: 60px;
+    padding-left: 120px
 }
 
 .container-footer{
-    max-width: 1350px;
-    
-    
-    
+    max-width: 1500px;    
 }
 
 .container-footer a{
     color: darkgrey;
+}
+.footer-copyrights{
+    padding-left: 55px
+}
+
+.icone-footer{
+    display:inline-flex;        
+}
+.icone-footer li{
+    padding-left: 25px;
 }
 
