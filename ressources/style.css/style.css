@@ -1,0 +1,302 @@
+/* Document Infomation
+- Document réstaurant 
+-version 1 ( version).0( maj majeur). 0 (patch)
+auteur:Gwendal Bescont
+*/
+
+/* COLORS
+defaut body text    
+-h1   color:#fff;              
+-h2   color:#fff              
+-h3   color:#fff
+-h4   color:#eee
+-button
+-button:hover
+
+-icon               
+*/
+/* FONTS
+
+ H1 font-family: 'Ubuntu',cursive, sans-serif;
+ H2 font-family: 'Rochester', cursive;   
+    
+*/
+
+/* CSS DIRECTORY
+1. =GLOBAL
+2. =HEADER
+3. =STORY  
+4. =SIGNATURES RECIPES
+5. =OUR MENU
+6. =PHOTO MENU
+7. =CONTACT
+8. =FOOTER
+*/
+
+/* GLOBAL
+==================================*/
+
+html {
+    background-color: #fff;
+}
+
+h1 {
+    font-family: 'Ubuntu', cursive, sans-serif;
+    font-weight: 300;
+    font-size: 100px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #fff;
+    opacity: 0.8;
+}
+
+h2 {
+    font-family: 'Rochester', cursive, sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #fff;
+}
+
+
+H2:after {
+    display: block;
+    height: 2px;
+    width: 100px;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 15px;
+    align-content: center;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Ubuntu', cursive, sans-serif;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+section {}
+
+/* HEADER
+==================================*/
+header {
+
+    background-image: linear-gradient(rgba(56, 56, 56, 1) 1%, rgba(26, 26, 26, 0.3113620448179272) 10%), url(../images/Header.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}
+
+.title p {
+    color: aliceblue;
+}
+
+.title h1 {
+    padding-top: 300px;
+    padding-bottom: 20px;
+}
+
+/*
+<!-- Story
+==================================
+-->
+*/
+.our-story-full {
+    background-color: #962323;
+    height: 600px;
+}
+
+
+.full-container {
+    padding-top: 60px;
+    margin: auto;
+}
+
+.img-story img {
+    border-radius: 10px;
+    box-shadow: 5px 6px 10px 0px rgba(20, 19, 19, 0.72);
+}
+
+.text-story-title p {
+    text-align: justify;
+    color: aliceblue;
+}
+
+.text-story-title h2:after {
+    background-color: #fff;
+}
+
+/*
+<!-- Signature recipes
+==================================
+-->
+*/
+
+.signature-recipes-full {
+    background-image: linear-gradient(146deg, rgba(56, 56, 56, 0.9766281512605042) 23%, rgba(26, 26, 26, 0.3113620448179272) 80%), url(../images/background%20recipe.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.signature-recipes-title h2:after {
+    background-color: darkmagenta;
+}
+
+.signature-recipes-full p {
+    color: #fff;
+    text-align: center;
+    margin: 0 100px 0 100px;
+
+}
+
+/*
+<!-- OUR MENU
+==================================
+-->
+*/
+.our-menu-full {
+    background-color: #eaeaea;
+    height: 1000px;
+}
+
+.our-menu-container {
+    height: 1000px;
+}
+.our-menu-title{
+    margin-top: 30px;    
+}
+
+.our-menu-title h2 {
+    color: #000000;
+}
+
+.our-menu-title h2:after {
+    background-color: darkmagenta;
+}
+
+.menu-text {
+    color: #333333;
+}
+
+.menu-text2 {
+    color: #333333;
+}
+
+h3,
+span {
+    display: inline-block;
+}
+
+.menu-left h3 {
+    padding-top: 20px;
+    text-align: left;
+}
+
+.menu-left span {
+    float: right;
+    color: darkmagenta;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.menu-left p {
+    text-align: left;
+    padding-top: 20px;
+}
+
+.menu-right h3 {
+
+    text-align: right;
+    padding-top: 20px
+}
+
+.menu-right p {
+
+    text-align: right;
+    padding-top: 20px;
+}
+
+.menu-right span {
+    float: right;
+    color: darkmagenta;
+    font-size: 20px;
+    padding-top: 20px
+}
+
+/*
+<!--
+    <!diaporama
+   =========================-->
+*/
+.carousel-inner {
+    height: 500px;
+}
+/*
+<!--
+    <!contact
+   =========================-->
+*/
+.contact-full{
+    background-color: #282d31;
+    height: 300px;
+}
+.menu-category a{
+    color: #fff; 
+    font-size: 20px;
+    }
+.menu-category{
+    margin-top:80px;
+    margin-bottom: 30px;
+}
+.menu-lien a{
+    color: #fff;
+}
+.contact-title h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    }
+.contact-title{
+     margin-top:80px;
+    margin-bottom: 30px;
+}
+
+.contact-paragraph p { 
+    font-size: 15px;
+    text-align: left;
+    color:#fff; 
+    
+}
+
+ul {
+list-style:none;
+margin-left:0;
+padding-left:0;
+color:#fff;
+}
+
+li {
+margin-bottom:10px;
+}
+/*
+<!--    FOOTER
+   =========================-->
+*/
+
+
+
