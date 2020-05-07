@@ -177,6 +177,7 @@ header {
 
 .our-menu-container {
     height: 1000px;
+    max-width: 1400px;
 }
 .our-menu-title{
     margin-top: 30px;    
@@ -198,14 +199,8 @@ header {
     color: #333333;
 }
 
-h3,
-span {
+h3,span {
     display: inline-block;
-}
-
-.menu-left h3 {
-    padding-top: 20px;
-    text-align: left;
 }
 
 .menu-left span {
@@ -213,22 +208,29 @@ span {
     color: darkmagenta;
     font-size: 20px;
     padding-top: 20px;
+    margin-right: 110px;
+    }
+
+.menu-left h3 {
+    margin-right: 120px;
+    padding-top: 20px;
+    text-align: left;
 }
 
 .menu-left p {
-    text-align: left;
+   margin-right: 120px;
     padding-top: 20px;
+    text-align: left;
 }
 
 .menu-right h3 {
-
-    text-align: right;
+    margin-left: 120px;
     padding-top: 20px
 }
 
 .menu-right p {
-
-    text-align: right;
+    margin-left: 120px;
+    text-align: left;
     padding-top: 20px;
 }
 
@@ -260,6 +262,7 @@ span {
     color: #fff; 
     font-size: 20px;
     }
+
 .menu-category{
     margin-top:80px;
     margin-bottom: 30px;
@@ -298,6 +301,19 @@ margin-bottom:10px;
 <!--    FOOTER
    =========================-->
 */
+.section-footer{
+    background-color: #131313;
+    height: 150px;
+}
 
+.container-footer{
+    max-width: 1350px;
+    
+    
+    
+}
 
+.container-footer a{
+    color: darkgrey;
+}
 
